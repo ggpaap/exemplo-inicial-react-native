@@ -4,8 +4,15 @@ export default function App() {
   return (
   
     <View style={styles.container}>
-      <Header />
-      <Text>Bem vindo fml!</Text>
+      <Header titulo="Lista de alunos" />
+      <Header titulo="Lista de professores" />
+      <Header titulo="Lista de desatentos" />
+      <View>
+      {/*tasks.map((tasks) => (
+        <Text>{tasks}</Text>
+      ))}
+      </View>
+      <StatusBar styles="auto" />
     </View>
   );
 }
